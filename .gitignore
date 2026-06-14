@@ -1,0 +1,63 @@
+# ==============================
+# MD trajectory and binary files
+# ==============================
+*.dcd
+*.rst
+*.chk
+*.prmtop
+*.inpcrd
+
+# ==============================
+# Large structure files
+# ==============================
+receptor.pdb
+receptor.pdbqt
+system.pdb
+temp.pdb
+prot_lig_*.pdb
+prot_lig_*.log
+protein_ligand_GNINA.dcd
+selected_residues/
+
+# ==============================
+# Ligand intermediate files
+# ==============================
+ligand_inicial.mol
+ligand_min.mol
+ligand_min.pdb
+ligand_min.pdbqt
+ligand_min.xyz
+ligand_min_out.pdbqt
+ligand_out.sdf
+ligand_prepared.sdf
+ligand.pdb
+ligand.pdbqt
+
+# ==============================
+# Docking output
+# ==============================
+unidock.sh
+unidock.txt
+gnina_score.sh
+gnina_scored_pose.sdf
+PDBs/
+
+# ==============================
+# P2Rank output
+# ==============================
+output_p2rank/
+p2rank.sh
+
+# ==============================
+# System files
+# ==============================
+desktop.ini
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# ==============================
+# Jupyter checkpoints
+# ==============================
+.ipynb_checkpoints/
