@@ -24,19 +24,19 @@ Computational pipeline for the study of benzothiazole derivatives as potential b
 
 ## Software & Force Fields
 
-| Tool | Version | Purpose |
-|------|---------|---------|
-| OpenMM | 8.x | MD engine |
-| AMBER ff19SB | — | Protein force field |
-| GAFF2 (v2.11) | — | Ligand force field |
-| TIP3P | — | Water model |
-| UniDock | — | GPU docking |
-| P2Rank | 2.4 | Binding site prediction |
-| GNINA | — | CNN rescoring |
-| ANI-2x | — | Ligand geometry optimization |
-| MDAnalysis | — | Trajectory analysis |
-| ProLIF | — | Interaction fingerprints |
-| MDTraj | — | Pi-stacking analysis |
+| Tool | Purpose |
+|------|---------|
+| OpenMM | MD engine |
+| AMBER ff19SB | Protein force field |
+| GAFF2 | Ligand force field |
+| TIP3P | Water model |
+| UniDock | GPU docking |
+| P2Rank | Binding site prediction |
+| GNINA | CNN rescoring |
+| ANI-2x | Ligand geometry optimization |
+| MDAnalysis | Trajectory analysis |
+| ProLIF | Interaction fingerprints |
+| MDTraj | Pi-stacking analysis |
 
 ## Data Files
 
@@ -52,9 +52,9 @@ Computational pipeline for the study of benzothiazole derivatives as potential b
 
 ## Boltz-2 Predicted Poses
 
-In addition to classical docking, Boltz-2 (a deep learning structure prediction model) was used to predict binding poses for three benzothiazole derivatives at site IB of HSA. The predicted structures are consistent with the docking results obtained at site IB.
+In addition to classical docking, Boltz-2 (protein–ligand co-folding, via Rowan Scientific) was used to independently predict binding poses and estimate binding affinity for the benzothiazole derivative (LB1) at site IB of HSA. Three independent runs were performed.
 
-| File | Description |
-|------|-------------|
-| `boltz2/ligand_01_boltz2.pdb` | Boltz-2 predicted pose — Ligand 01 |
-| `boltz2/ligand_02_boltz2.pdb` | Boltz-2 predicted pose — Lig
+| Run | pTM | ipTM | Affinity Prob. | Predicted pIC50 | Predicted IC50 (M) |
+|-----|-----|------|---------------|----------------|-------------------|
+| LB1-1 | 0.927 | 0.759 | 0.417 | 6.50 | 3.17 × 10⁻⁷ |
+| LB1-2 | 0.922 | 0.752 | 0.347 | 6.33 | 4.67 × 10⁻⁷ |
