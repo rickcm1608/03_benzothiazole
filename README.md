@@ -10,7 +10,7 @@ Computational pipeline for the study of benzothiazole derivatives as potential b
 03_residue_selection       → Extract pocket residues as individual PDB files
 04_ligand_optimization     → ANI-2x geometry optimization (Neural Network Potential)
 05_docking                 → GPU-accelerated docking with UniDock (Vina scoring)
-06_build_topology          → AMBER19SB + GAFF2.11 + TIP3P topology (OpenMM)
+06_build_topology          → AMBER19SB + GAFF2 + TIP3P topology (OpenMM)
 07_interaction_fingerprint → Protein-ligand interaction fingerprint (ProLIF)
 08_equilibration           → NVT + NPT equilibration (0.5 ns + 0.5 ns, OpenMM)
 09_production_md           → NPT production MD — 21 × 5 ns = 105 ns (CUDA)
@@ -57,4 +57,4 @@ In addition to classical docking, Boltz-2 (protein–ligand co-folding, via Rowa
 | Replicate | pTM | ipTM | Affinity Prob. | Predicted pIC50 | Predicted IC50 (M) |
 |-----------|-----|------|---------------|----------------|-------------------|
 | 1 | 0.927 | 0.759 | 0.417 | 6.50 | 3.17 × 10⁻⁷ |
-| 2 | 0.922 | 0.752 | 0.
+| 2 | 0.922 | 0.752 | 0.347
