@@ -52,9 +52,9 @@ Computational pipeline for the study of benzothiazole derivatives as potential b
 
 ## Boltz-2 Predicted Poses
 
-In addition to classical docking, Boltz-2 (protein–ligand co-folding, via Rowan Scientific) was used to independently predict binding poses and estimate binding affinity for the benzothiazole derivative (LB1) at site IB of HSA. Three independent runs were performed.
+In addition to classical docking, Boltz-2 (protein–ligand co-folding, via Rowan Scientific) was used to independently predict the binding pose and estimate binding affinity for the benzothiazole derivative (LB1) at site IB of HSA. Three replicate runs were performed to assess reproducibility.
 
-| Run | pTM | ipTM | Affinity Prob. | Predicted pIC50 | Predicted IC50 (M) |
-|-----|-----|------|---------------|----------------|-------------------|
-| LB1-1 | 0.927 | 0.759 | 0.417 | 6.50 | 3.17 × 10⁻⁷ |
-| LB1-2 | 0.922 | 0.752 | 0.347 | 6.33 | 4.67 × 10⁻⁷ |
+| Replicate | pTM | ipTM | Affinity Prob. | Predicted pIC50 | Predicted IC50 (M) |
+|-----------|-----|------|---------------|----------------|-------------------|
+| 1 | 0.927 | 0.759 | 0.417 | 6.50 | 3.17 × 10⁻⁷ |
+| 2 | 0.922 | 0.752 | 0.
