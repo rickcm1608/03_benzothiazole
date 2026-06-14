@@ -56,5 +56,5 @@ In addition to classical docking, Boltz-2 (protein–ligand co-folding, via Rowa
 
 | Replicate | pTM | ipTM | Affinity Prob. | Predicted pIC50 | Predicted IC50 (M) |
 |-----------|-----|------|---------------|----------------|-------------------|
-| 1 | 0.927 | 0.759 | 0.417 | 6.50 | 3.17 × 10⁻⁷ |
-| 2 | 0.922 | 0.752 | 0.347
+| 1 | 0.927 | 0.759 | 0.417 | 6.50 | 3.17e-7 |
+| 2 | 0.922 | 0.752 | 0.347 | 6.33 |
